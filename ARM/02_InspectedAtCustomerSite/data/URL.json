@@ -1,0 +1,6 @@
+{
+  "outboundDelivy_app":      "https://ccf-715.wdf.sap.corp/ui?sap-language=#OutboundDelivery-changeInWebGUI?sap-ui-tech-hint=GUI",
+  "inspection_app":          "https://ccf-715.wdf.sap.corp/ui#MaterialInspection-maintainCustomerMaterialInspectionInWebGUI?sap-ui-tech-hint=GUI",
+  "billingDocument_app":     "https://ccf-715.wdf.sap.corp/ui#BillingDocument-create",
+  "manageCustomerReturn_app": "https://ccf-715.wdf.sap.corp/ui#CustomerReturn-manage&/?sap-iapp-state=ASL2G2M4FCED8RCBSFWS25J4LPINVHQ8Y3RNGNPX"
+}

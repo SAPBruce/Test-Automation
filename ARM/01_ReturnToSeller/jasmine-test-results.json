@@ -1,0 +1,822 @@
+{
+    "suite1": {
+        "id": "suite1",
+        "description": "Login System.",
+        "fullName": "Login System.",
+        "failedExpectations": [],
+        "deprecationWarnings": [],
+        "status": "finished",
+        "specs": [
+            {
+                "id": "spec0",
+                "description": "step0:Login",
+                "fullName": "Login System. step0:Login",
+                "failedExpectations": [],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "passed"
+            }
+        ]
+    },
+    "suite2": {
+        "id": "suite2",
+        "description": "Create Return Order",
+        "fullName": "Create Return Order",
+        "failedExpectations": [],
+        "deprecationWarnings": [],
+        "status": "finished",
+        "specs": [
+            {
+                "id": "spec1",
+                "description": "step1:Go to Manage Customer Returns tile.",
+                "fullName": "Create Return Order step1:Go to Manage Customer Returns tile.",
+                "failedExpectations": [],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "passed"
+            },
+            {
+                "id": "spec2",
+                "description": "step2:Create button click on worklist page.",
+                "fullName": "Create Return Order step2:Create button click on worklist page.",
+                "failedExpectations": [
+                    {
+                        "matcherName": "",
+                        "message": "Failed: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=79.0.3945.117)\n  (Driver info: chromedriver=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}),platform=Windows NT 10.0.17763 x86_64)",
+                        "stack": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=79.0.3945.117)\n  (Driver info: chromedriver=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}),platform=Windows NT 10.0.17763 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\nFrom: Task: WebDriver.executeScript()\n    at Driver.schedule (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at Driver.executeScript (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\webdriver.js:878:16)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\by.js:191:35\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\webdriver.js:1068:28\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\webdriver.js:907:19\n    at ManagedPromise.invokeCallback_ (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\promise.js:2974:25\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\nFrom: Task: WebDriver.call(function)\n    at Driver.call (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\webdriver.js:901:23)\n    at Driver.findElementsInternal_ (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\webdriver.js:1068:17)\n    at Driver.findElements (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\webdriver.js:1043:19)\n    at Object.findElementsOverride (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\protractor\\lib\\locators.ts:92:25)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\protractor\\lib\\element.ts:164:32\n    at ManagedPromise.invokeCallback_ (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\nFrom: Task: <anonymous>\n    at pollCondition (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\promise.js:2195:19)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\promise.js:2191:7\n    at new ManagedPromise (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\promise.js:2190:22\n    at TaskQueue.execute_ (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\promise.js:2974:25\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\nFrom: Task: <anonymous wait>\n    at scheduleWait (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\promise.js:2188:20)\n    at ControlFlow.wait (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\promise.js:2517:12)\n    at Driver.wait (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\webdriver.js:934:29)\n    at run (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\protractor\\lib\\browser.ts:67:7)\n    at ProtractorBrowser.to.<computed> [as wait] (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\protractor\\lib\\browser.ts:75:5)\n    at Locator.waitForAllElements (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\reuse\\ui5\\common\\modules\\locator.js:27:26)\n    at Locator.getDisplayedElement (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\reuse\\ui5\\common\\modules\\locator.js:42:28)\n    at Locator.highlightElement (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\reuse\\ui5\\common\\modules\\locator.js:178:27)\n    at UserContext.<anonymous> (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\workspace\\ARM\\01_ReturnToSeller\\specs\\010_Create_Return_Order.spec.js:35:28)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\jasminewd2\\index.js:112:25\nFrom: Task: Run it(\"step2:Create button click on worklist page.\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4486:26)\n    at QueueRunner.run (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4402:20)\n    at QueueRunner.execute (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4384:10)\n    at Spec.queueRunnerFactory (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:964:35)\n    at Spec.execute (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:563:10)\n    at UserContext.fn (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:5541:37)\n    at attempt (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4486:26)\n    at QueueRunner.run (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4402:20)\n    at runNext (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4446:20)\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\workspace\\ARM\\01_ReturnToSeller\\specs\\010_Create_Return_Order.spec.js:26:3)\n    at addSpecsToSuite (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1181:25)\n    at Env.describe (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1145:7)\n    at describe (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4593:18)\n    at Object.<anonymous> (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\workspace\\ARM\\01_ReturnToSeller\\specs\\010_Create_Return_Order.spec.js:4:1)\n    at Module._compile (internal/modules/cjs/loader.js:956:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)\n    at Module.load (internal/modules/cjs/loader.js:812:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+                        "passed": false,
+                        "expected": "",
+                        "actual": ""
+                    }
+                ],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "failed"
+            },
+            {
+                "id": "spec3",
+                "description": "step3:Go button click.",
+                "fullName": "Create Return Order step3:Go button click.",
+                "failedExpectations": [],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "pending"
+            },
+            {
+                "id": "spec4",
+                "description": "step4:Create button click.",
+                "fullName": "Create Return Order step4:Create button click.",
+                "failedExpectations": [],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "pending"
+            },
+            {
+                "id": "spec5",
+                "description": "step5:Select return reason.",
+                "fullName": "Create Return Order step5:Select return reason.",
+                "failedExpectations": [],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "pending"
+            },
+            {
+                "id": "spec6",
+                "description": "step6:Set value for return quantity.",
+                "fullName": "Create Return Order step6:Set value for return quantity.",
+                "failedExpectations": [],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "pending"
+            },
+            {
+                "id": "spec7",
+                "description": "step7:Click create button on dialog page",
+                "fullName": "Create Return Order step7:Click create button on dialog page",
+                "failedExpectations": [
+                    {
+                        "matcherName": "",
+                        "message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=79.0.3945.117)\n  (Driver info: chromedriver=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}),platform=Windows NT 10.0.17763 x86_64)",
+                        "stack": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=79.0.3945.117)\n  (Driver info: chromedriver=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}),platform=Windows NT 10.0.17763 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\nFrom: Task: WebDriver.takeScreenshot()\n    at Driver.schedule (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at Driver.takeScreenshot (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\webdriver.js:1085:17)\n    at run (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\protractor\\lib\\browser.ts:67:7)\n    at ProtractorBrowser.to.<computed> [as takeScreenshot] (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\protractor\\lib\\browser.ts:75:5)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\protractor-jasmine2-screenshot-reporter\\index.js:600:23\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:4905:15\n    at baseForOwn (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:2990:24)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:4874:18\n    at Function.forEach (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:9342:14)\n    at Jasmine2ScreenShotReporter.specDone (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\protractor-jasmine2-screenshot-reporter\\index.js:596:7)",
+                        "passed": false,
+                        "expected": "",
+                        "actual": ""
+                    }
+                ],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "pending"
+            },
+            {
+                "id": "spec8",
+                "description": "step8:Get return order number.",
+                "fullName": "Create Return Order step8:Get return order number.",
+                "failedExpectations": [],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "pending"
+            }
+        ]
+    },
+    "suite3": {
+        "id": "suite3",
+        "description": "FollowUpActivities: Run Manage Customer Returns app",
+        "fullName": "FollowUpActivities: Run Manage Customer Returns app",
+        "failedExpectations": [],
+        "deprecationWarnings": [],
+        "status": "finished",
+        "specs": [
+            {
+                "id": "spec9",
+                "description": "step1:Naviaget to follow up activities.",
+                "fullName": "FollowUpActivities: Run Manage Customer Returns app step1:Naviaget to follow up activities.",
+                "failedExpectations": [
+                    {
+                        "matcherName": "",
+                        "message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=79.0.3945.117)\n  (Driver info: chromedriver=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}),platform=Windows NT 10.0.17763 x86_64)",
+                        "stack": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=79.0.3945.117)\n  (Driver info: chromedriver=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}),platform=Windows NT 10.0.17763 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\nFrom: Task: WebDriver.takeScreenshot()\n    at Driver.schedule (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at Driver.takeScreenshot (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\webdriver.js:1085:17)\n    at run (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\protractor\\lib\\browser.ts:67:7)\n    at ProtractorBrowser.to.<computed> [as takeScreenshot] (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\protractor\\lib\\browser.ts:75:5)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\protractor-jasmine2-screenshot-reporter\\index.js:600:23\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:4905:15\n    at baseForOwn (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:2990:24)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:4874:18\n    at Function.forEach (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:9342:14)\n    at Jasmine2ScreenShotReporter.specDone (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\protractor-jasmine2-screenshot-reporter\\index.js:596:7)",
+                        "passed": false,
+                        "expected": "",
+                        "actual": ""
+                    }
+                ],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "failed"
+            },
+            {
+                "id": "spec10",
+                "description": "step5:Save follow up activity items.",
+                "fullName": "FollowUpActivities: Run Manage Customer Returns app step5:Save follow up activity items.",
+                "failedExpectations": [],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "pending"
+            }
+        ]
+    },
+    "suite4": {
+        "id": "suite4",
+        "description": "Generate return delivery and get generated return order number & return delivery number.",
+        "fullName": "Generate return delivery and get generated return order number & return delivery number.",
+        "failedExpectations": [
+            {
+                "matcherName": "",
+                "message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=79.0.3945.117)\n  (Driver info: chromedriver=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}),platform=Windows NT 10.0.17763 x86_64)",
+                "stack": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=79.0.3945.117)\n  (Driver info: chromedriver=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}),platform=Windows NT 10.0.17763 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\nFrom: Task: WebDriver.takeScreenshot()\n    at Driver.schedule (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at Driver.takeScreenshot (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\webdriver.js:1085:17)\n    at run (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\protractor\\lib\\browser.ts:67:7)\n    at ProtractorBrowser.to.<computed> [as takeScreenshot] (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\protractor\\lib\\browser.ts:75:5)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\protractor-jasmine2-screenshot-reporter\\index.js:600:23\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:4905:15\n    at baseForOwn (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:2990:24)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:4874:18\n    at Function.forEach (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:9342:14)\n    at Jasmine2ScreenShotReporter.specDone (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\protractor-jasmine2-screenshot-reporter\\index.js:596:7)",
+                "passed": false,
+                "expected": "",
+                "actual": ""
+            }
+        ],
+        "deprecationWarnings": [],
+        "status": "failed",
+        "specs": [
+            {
+                "id": "spec11",
+                "description": "step1:Save and release on edit object page.",
+                "fullName": "Generate return delivery and get generated return order number & return delivery number. step1:Save and release on edit object page.",
+                "failedExpectations": [
+                    {
+                        "matcherName": "",
+                        "message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=79.0.3945.117)\n  (Driver info: chromedriver=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}),platform=Windows NT 10.0.17763 x86_64)",
+                        "stack": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=79.0.3945.117)\n  (Driver info: chromedriver=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}),platform=Windows NT 10.0.17763 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\nFrom: Task: WebDriver.takeScreenshot()\n    at Driver.schedule (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at Driver.takeScreenshot (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\webdriver.js:1085:17)\n    at run (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\protractor\\lib\\browser.ts:67:7)\n    at ProtractorBrowser.to.<computed> [as takeScreenshot] (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\protractor\\lib\\browser.ts:75:5)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\protractor-jasmine2-screenshot-reporter\\index.js:600:23\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:4905:15\n    at baseForOwn (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:2990:24)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:4874:18\n    at Function.forEach (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:9342:14)\n    at Jasmine2ScreenShotReporter.specDone (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\protractor-jasmine2-screenshot-reporter\\index.js:596:7)",
+                        "passed": false,
+                        "expected": "",
+                        "actual": ""
+                    }
+                ],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "failed"
+            },
+            {
+                "id": "spec12",
+                "description": "step2:Naviaget to edit page.",
+                "fullName": "Generate return delivery and get generated return order number & return delivery number. step2:Naviaget to edit page.",
+                "failedExpectations": [],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "pending"
+            },
+            {
+                "id": "spec13",
+                "description": "step4:Process flow tab click.",
+                "fullName": "Generate return delivery and get generated return order number & return delivery number. step4:Process flow tab click.",
+                "failedExpectations": [],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "pending"
+            },
+            {
+                "id": "spec14",
+                "description": "step5:Get delivery number.",
+                "fullName": "Generate return delivery and get generated return order number & return delivery number. step5:Get delivery number.",
+                "failedExpectations": [],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "pending"
+            },
+            {
+                "id": "spec15",
+                "description": "Step6: Logout",
+                "fullName": "Generate return delivery and get generated return order number & return delivery number. Step6: Logout",
+                "failedExpectations": [],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "pending"
+            }
+        ]
+    },
+    "suite5": {
+        "id": "suite5",
+        "description": "Perform picking & post goods receipt.",
+        "fullName": "Perform picking & post goods receipt.",
+        "failedExpectations": [],
+        "deprecationWarnings": [],
+        "status": "finished",
+        "specs": [
+            {
+                "id": "spec16",
+                "description": "step 1: Navigate to outbound delivery app.",
+                "fullName": "Perform picking & post goods receipt. step 1: Navigate to outbound delivery app.",
+                "failedExpectations": [
+                    {
+                        "matcherName": "",
+                        "message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=79.0.3945.117)\n  (Driver info: chromedriver=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}),platform=Windows NT 10.0.17763 x86_64)",
+                        "stack": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=79.0.3945.117)\n  (Driver info: chromedriver=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}),platform=Windows NT 10.0.17763 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\nFrom: Task: WebDriver.takeScreenshot()\n    at Driver.schedule (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at Driver.takeScreenshot (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\webdriver.js:1085:17)\n    at run (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\protractor\\lib\\browser.ts:67:7)\n    at ProtractorBrowser.to.<computed> [as takeScreenshot] (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\protractor\\lib\\browser.ts:75:5)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\protractor-jasmine2-screenshot-reporter\\index.js:600:23\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:4905:15\n    at baseForOwn (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:2990:24)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:4874:18\n    at Function.forEach (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:9342:14)\n    at Jasmine2ScreenShotReporter.specDone (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\protractor-jasmine2-screenshot-reporter\\index.js:596:7)",
+                        "passed": false,
+                        "expected": "",
+                        "actual": ""
+                    },
+                    {
+                        "matcherName": "",
+                        "message": "Failed: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=79.0.3945.117)\n  (Driver info: chromedriver=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}),platform=Windows NT 10.0.17763 x86_64)",
+                        "stack": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=79.0.3945.117)\n  (Driver info: chromedriver=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}),platform=Windows NT 10.0.17763 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\nFrom: Task: WebDriver.navigate().to(https://ccf-715.wdf.sap.corp/ui?sap-language=#OutboundDelivery-changeInWebGUI?sap-ui-tech-hint=GUI)\n    at Driver.schedule (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at Navigation.to (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\webdriver.js:1133:25)\n    at Driver.get (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\webdriver.js:988:28)\n    at run (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\protractor\\lib\\browser.ts:67:7)\n    at ProtractorBrowser.to.<computed> [as get] (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\protractor\\lib\\browser.ts:75:5)\n    at Navigation.navigateToUrl (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\reuse\\nonUi5\\common\\modules\\navigation.js:15:26)\n    at UserContext.<anonymous> (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\workspace\\ARM\\01_ReturnToSeller\\specs\\030_Perform_Picking_&_Post_Goods_Receipt.spec.js:18:37)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\nFrom: Task: Run it(\"step 1: Navigate to outbound delivery app.\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4486:26)\n    at QueueRunner.run (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4402:20)\n    at runNext (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4446:20)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4453:13\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4356:12\n    at handleError (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4429:11)\n    at process.onerror (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:2488:17)\n    at process.emit (events.js:210:5)\n    at process.emit (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\source-map-support\\source-map-support.js:439:21)\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\workspace\\ARM\\01_ReturnToSeller\\specs\\030_Perform_Picking_&_Post_Goods_Receipt.spec.js:17:3)\n    at addSpecsToSuite (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1181:25)\n    at Env.describe (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1145:7)\n    at describe (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4593:18)\n    at Object.<anonymous> (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\workspace\\ARM\\01_ReturnToSeller\\specs\\030_Perform_Picking_&_Post_Goods_Receipt.spec.js:4:1)\n    at Module._compile (internal/modules/cjs/loader.js:956:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)\n    at Module.load (internal/modules/cjs/loader.js:812:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+                        "passed": false,
+                        "expected": "",
+                        "actual": ""
+                    }
+                ],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "failed"
+            },
+            {
+                "id": "spec17",
+                "description": "step 2: Login to System",
+                "fullName": "Perform picking & post goods receipt. step 2: Login to System",
+                "failedExpectations": [],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "pending"
+            },
+            {
+                "id": "spec18",
+                "description": "step3: Switch to frame.",
+                "fullName": "Perform picking & post goods receipt. step3: Switch to frame.",
+                "failedExpectations": [],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "pending"
+            },
+            {
+                "id": "spec19",
+                "description": "step 4: Fill delivery number.",
+                "fullName": "Perform picking & post goods receipt. step 4: Fill delivery number.",
+                "failedExpectations": [],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "pending"
+            },
+            {
+                "id": "spec20",
+                "description": "Step 5: Click 'Continue'",
+                "fullName": "Perform picking & post goods receipt. Step 5: Click 'Continue'",
+                "failedExpectations": [],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "pending"
+            },
+            {
+                "id": "spec21",
+                "description": "Step 6: Click 'Picked Qty'",
+                "fullName": "Perform picking & post goods receipt. Step 6: Click 'Picked Qty'",
+                "failedExpectations": [
+                    {
+                        "matcherName": "",
+                        "message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=79.0.3945.117)\n  (Driver info: chromedriver=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}),platform=Windows NT 10.0.17763 x86_64)",
+                        "stack": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=79.0.3945.117)\n  (Driver info: chromedriver=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}),platform=Windows NT 10.0.17763 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\nFrom: Task: WebDriver.takeScreenshot()\n    at Driver.schedule (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at Driver.takeScreenshot (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\webdriver.js:1085:17)\n    at run (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\protractor\\lib\\browser.ts:67:7)\n    at ProtractorBrowser.to.<computed> [as takeScreenshot] (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\protractor\\lib\\browser.ts:75:5)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\protractor-jasmine2-screenshot-reporter\\index.js:600:23\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:4905:15\n    at baseForOwn (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:2990:24)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:4874:18\n    at Function.forEach (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:9342:14)\n    at Jasmine2ScreenShotReporter.specDone (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\protractor-jasmine2-screenshot-reporter\\index.js:596:7)",
+                        "passed": false,
+                        "expected": "",
+                        "actual": ""
+                    }
+                ],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "pending"
+            },
+            {
+                "id": "spec22",
+                "description": "Step 7: Fill 'Picked Qty'",
+                "fullName": "Perform picking & post goods receipt. Step 7: Fill 'Picked Qty'",
+                "failedExpectations": [],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "pending"
+            },
+            {
+                "id": "spec23",
+                "description": "Step 8: Click 'Post Goods Issue'",
+                "fullName": "Perform picking & post goods receipt. Step 8: Click 'Post Goods Issue'",
+                "failedExpectations": [],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "pending"
+            },
+            {
+                "id": "spec24",
+                "description": "Step 9: Click 'exit'",
+                "fullName": "Perform picking & post goods receipt. Step 9: Click 'exit'",
+                "failedExpectations": [],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "pending"
+            },
+            {
+                "id": "spec25",
+                "description": "Step 10: Logout",
+                "fullName": "Perform picking & post goods receipt. Step 10: Logout",
+                "failedExpectations": [
+                    {
+                        "matcherName": "",
+                        "message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=79.0.3945.117)\n  (Driver info: chromedriver=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}),platform=Windows NT 10.0.17763 x86_64)",
+                        "stack": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=79.0.3945.117)\n  (Driver info: chromedriver=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}),platform=Windows NT 10.0.17763 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\nFrom: Task: WebDriver.takeScreenshot()\n    at Driver.schedule (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at Driver.takeScreenshot (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\webdriver.js:1085:17)\n    at run (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\protractor\\lib\\browser.ts:67:7)\n    at ProtractorBrowser.to.<computed> [as takeScreenshot] (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\protractor\\lib\\browser.ts:75:5)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\protractor-jasmine2-screenshot-reporter\\index.js:600:23\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:4905:15\n    at baseForOwn (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:2990:24)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:4874:18\n    at Function.forEach (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:9342:14)\n    at Jasmine2ScreenShotReporter.specDone (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\protractor-jasmine2-screenshot-reporter\\index.js:596:7)",
+                        "passed": false,
+                        "expected": "",
+                        "actual": ""
+                    }
+                ],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "pending"
+            }
+        ]
+    },
+    "suite6": {
+        "id": "suite6",
+        "description": "Perform Material Inspection.",
+        "fullName": "Perform Material Inspection.",
+        "failedExpectations": [],
+        "deprecationWarnings": [],
+        "status": "finished",
+        "specs": [
+            {
+                "id": "spec26",
+                "description": "step 1: Navigate to inspection app.",
+                "fullName": "Perform Material Inspection. step 1: Navigate to inspection app.",
+                "failedExpectations": [
+                    {
+                        "matcherName": "",
+                        "message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=79.0.3945.117)\n  (Driver info: chromedriver=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}),platform=Windows NT 10.0.17763 x86_64)",
+                        "stack": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=79.0.3945.117)\n  (Driver info: chromedriver=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}),platform=Windows NT 10.0.17763 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\nFrom: Task: WebDriver.takeScreenshot()\n    at Driver.schedule (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at Driver.takeScreenshot (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\webdriver.js:1085:17)\n    at run (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\protractor\\lib\\browser.ts:67:7)\n    at ProtractorBrowser.to.<computed> [as takeScreenshot] (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\protractor\\lib\\browser.ts:75:5)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\protractor-jasmine2-screenshot-reporter\\index.js:600:23\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:4905:15\n    at baseForOwn (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:2990:24)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:4874:18\n    at Function.forEach (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:9342:14)\n    at Jasmine2ScreenShotReporter.specDone (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\protractor-jasmine2-screenshot-reporter\\index.js:596:7)",
+                        "passed": false,
+                        "expected": "",
+                        "actual": ""
+                    },
+                    {
+                        "matcherName": "",
+                        "message": "Failed: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=79.0.3945.117)\n  (Driver info: chromedriver=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}),platform=Windows NT 10.0.17763 x86_64)",
+                        "stack": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=79.0.3945.117)\n  (Driver info: chromedriver=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}),platform=Windows NT 10.0.17763 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\nFrom: Task: WebDriver.navigate().to(https://ccf-715.wdf.sap.corp/ui#MaterialInspection-maintainCustomerMaterialInspectionInWebGUI?sap-ui-tech-hint=GUI)\n    at Driver.schedule (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at Navigation.to (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\webdriver.js:1133:25)\n    at Driver.get (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\webdriver.js:988:28)\n    at run (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\protractor\\lib\\browser.ts:67:7)\n    at ProtractorBrowser.to.<computed> [as get] (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\protractor\\lib\\browser.ts:75:5)\n    at Navigation.navigateToUrl (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\reuse\\nonUi5\\common\\modules\\navigation.js:15:26)\n    at UserContext.<anonymous> (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\workspace\\ARM\\01_ReturnToSeller\\specs\\040_Perform_Material_Inspection.spec.js:19:37)\nFrom: Task: Run it(\"step 1: Navigate to inspection app.\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4486:26)\n    at QueueRunner.run (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4402:20)\n    at runNext (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4446:20)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4453:13\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4356:12\n    at handleError (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4429:11)\n    at process.onerror (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:2488:17)\n    at process.emit (events.js:210:5)\n    at process.emit (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\source-map-support\\source-map-support.js:439:21)\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\workspace\\ARM\\01_ReturnToSeller\\specs\\040_Perform_Material_Inspection.spec.js:17:3)\n    at addSpecsToSuite (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1181:25)\n    at Env.describe (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1145:7)\n    at describe (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4593:18)\n    at Object.<anonymous> (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\workspace\\ARM\\01_ReturnToSeller\\specs\\040_Perform_Material_Inspection.spec.js:4:1)\n    at Module._compile (internal/modules/cjs/loader.js:956:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)\n    at Module.load (internal/modules/cjs/loader.js:812:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+                        "passed": false,
+                        "expected": "",
+                        "actual": ""
+                    }
+                ],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "failed"
+            },
+            {
+                "id": "spec27",
+                "description": "step 2: Login to System.",
+                "fullName": "Perform Material Inspection. step 2: Login to System.",
+                "failedExpectations": [],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "pending"
+            },
+            {
+                "id": "spec28",
+                "description": "step3: Switch frame.",
+                "fullName": "Perform Material Inspection. step3: Switch frame.",
+                "failedExpectations": [],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "pending"
+            },
+            {
+                "id": "spec29",
+                "description": "step 4: Fill delivery number.",
+                "fullName": "Perform Material Inspection. step 4: Fill delivery number.",
+                "failedExpectations": [],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "pending"
+            },
+            {
+                "id": "spec30",
+                "description": "Step 5: Click 'Execute'.",
+                "fullName": "Perform Material Inspection. Step 5: Click 'Execute'.",
+                "failedExpectations": [],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "pending"
+            },
+            {
+                "id": "spec31",
+                "description": "Step 6: Click 'item tab'.",
+                "fullName": "Perform Material Inspection. Step 6: Click 'item tab'.",
+                "failedExpectations": [
+                    {
+                        "matcherName": "",
+                        "message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=79.0.3945.117)\n  (Driver info: chromedriver=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}),platform=Windows NT 10.0.17763 x86_64)",
+                        "stack": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=79.0.3945.117)\n  (Driver info: chromedriver=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}),platform=Windows NT 10.0.17763 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\nFrom: Task: WebDriver.takeScreenshot()\n    at Driver.schedule (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at Driver.takeScreenshot (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\webdriver.js:1085:17)\n    at run (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\protractor\\lib\\browser.ts:67:7)\n    at ProtractorBrowser.to.<computed> [as takeScreenshot] (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\protractor\\lib\\browser.ts:75:5)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\protractor-jasmine2-screenshot-reporter\\index.js:600:23\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:4905:15\n    at baseForOwn (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:2990:24)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:4874:18\n    at Function.forEach (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:9342:14)\n    at Jasmine2ScreenShotReporter.specDone (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\protractor-jasmine2-screenshot-reporter\\index.js:596:7)",
+                        "passed": false,
+                        "expected": "",
+                        "actual": ""
+                    }
+                ],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "pending"
+            },
+            {
+                "id": "spec32",
+                "description": "step 7: Fill inspection code.",
+                "fullName": "Perform Material Inspection. step 7: Fill inspection code.",
+                "failedExpectations": [],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "pending"
+            },
+            {
+                "id": "spec33",
+                "description": "step 8: Fill comment.",
+                "fullName": "Perform Material Inspection. step 8: Fill comment.",
+                "failedExpectations": [],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "pending"
+            },
+            {
+                "id": "spec34",
+                "description": "step 9: Fill follow up activity.",
+                "fullName": "Perform Material Inspection. step 9: Fill follow up activity.",
+                "failedExpectations": [],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "pending"
+            },
+            {
+                "id": "spec35",
+                "description": "Step 10: Save and confirm.'",
+                "fullName": "Perform Material Inspection. Step 10: Save and confirm.'",
+                "failedExpectations": [],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "pending"
+            },
+            {
+                "id": "spec36",
+                "description": "Step 11: Click 'exit'",
+                "fullName": "Perform Material Inspection. Step 11: Click 'exit'",
+                "failedExpectations": [
+                    {
+                        "matcherName": "",
+                        "message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=79.0.3945.117)\n  (Driver info: chromedriver=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}),platform=Windows NT 10.0.17763 x86_64)",
+                        "stack": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=79.0.3945.117)\n  (Driver info: chromedriver=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}),platform=Windows NT 10.0.17763 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\nFrom: Task: WebDriver.takeScreenshot()\n    at Driver.schedule (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at Driver.takeScreenshot (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\webdriver.js:1085:17)\n    at run (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\protractor\\lib\\browser.ts:67:7)\n    at ProtractorBrowser.to.<computed> [as takeScreenshot] (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\protractor\\lib\\browser.ts:75:5)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\protractor-jasmine2-screenshot-reporter\\index.js:600:23\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:4905:15\n    at baseForOwn (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:2990:24)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:4874:18\n    at Function.forEach (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:9342:14)\n    at Jasmine2ScreenShotReporter.specDone (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\protractor-jasmine2-screenshot-reporter\\index.js:596:7)",
+                        "passed": false,
+                        "expected": "",
+                        "actual": ""
+                    }
+                ],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "pending"
+            },
+            {
+                "id": "spec37",
+                "description": "Step 12: Logout",
+                "fullName": "Perform Material Inspection. Step 12: Logout",
+                "failedExpectations": [],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "pending"
+            }
+        ]
+    },
+    "suite7": {
+        "id": "suite7",
+        "description": "Determine refund & generate credit memo request.",
+        "fullName": "Determine refund & generate credit memo request.",
+        "failedExpectations": [],
+        "deprecationWarnings": [],
+        "status": "finished",
+        "specs": [
+            {
+                "id": "spec38",
+                "description": "step 1: Navigate to determine refund app.",
+                "fullName": "Determine refund & generate credit memo request. step 1: Navigate to determine refund app.",
+                "failedExpectations": [
+                    {
+                        "matcherName": "",
+                        "message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=79.0.3945.117)\n  (Driver info: chromedriver=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}),platform=Windows NT 10.0.17763 x86_64)",
+                        "stack": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=79.0.3945.117)\n  (Driver info: chromedriver=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}),platform=Windows NT 10.0.17763 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\nFrom: Task: WebDriver.takeScreenshot()\n    at Driver.schedule (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at Driver.takeScreenshot (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\webdriver.js:1085:17)\n    at run (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\protractor\\lib\\browser.ts:67:7)\n    at ProtractorBrowser.to.<computed> [as takeScreenshot] (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\protractor\\lib\\browser.ts:75:5)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\protractor-jasmine2-screenshot-reporter\\index.js:600:23\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:4905:15\n    at baseForOwn (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:2990:24)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:4874:18\n    at Function.forEach (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:9342:14)\n    at Jasmine2ScreenShotReporter.specDone (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\protractor-jasmine2-screenshot-reporter\\index.js:596:7)",
+                        "passed": false,
+                        "expected": "",
+                        "actual": ""
+                    }
+                ],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "failed"
+            },
+            {
+                "id": "spec39",
+                "description": "step 2: Login to System",
+                "fullName": "Determine refund & generate credit memo request. step 2: Login to System",
+                "failedExpectations": [],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "pending"
+            },
+            {
+                "id": "spec40",
+                "description": "step3:Go to determine refund app from tile.",
+                "fullName": "Determine refund & generate credit memo request. step3:Go to determine refund app from tile.",
+                "failedExpectations": [],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "pending"
+            },
+            {
+                "id": "spec41",
+                "description": "step4:Set return order & search.",
+                "fullName": "Determine refund & generate credit memo request. step4:Set return order & search.",
+                "failedExpectations": [],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "pending"
+            },
+            {
+                "id": "spec42",
+                "description": "step5:Click go button.",
+                "fullName": "Determine refund & generate credit memo request. step5:Click go button.",
+                "failedExpectations": [],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "pending"
+            },
+            {
+                "id": "spec43",
+                "description": "step6:Select one item.",
+                "fullName": "Determine refund & generate credit memo request. step6:Select one item.",
+                "failedExpectations": [
+                    {
+                        "matcherName": "",
+                        "message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=79.0.3945.117)\n  (Driver info: chromedriver=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}),platform=Windows NT 10.0.17763 x86_64)",
+                        "stack": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=79.0.3945.117)\n  (Driver info: chromedriver=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}),platform=Windows NT 10.0.17763 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\nFrom: Task: WebDriver.takeScreenshot()\n    at Driver.schedule (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at Driver.takeScreenshot (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\webdriver.js:1085:17)\n    at run (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\protractor\\lib\\browser.ts:67:7)\n    at ProtractorBrowser.to.<computed> [as takeScreenshot] (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\protractor\\lib\\browser.ts:75:5)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\protractor-jasmine2-screenshot-reporter\\index.js:600:23\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:4905:15\n    at baseForOwn (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:2990:24)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:4874:18\n    at Function.forEach (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:9342:14)\n    at Jasmine2ScreenShotReporter.specDone (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\protractor-jasmine2-screenshot-reporter\\index.js:596:7)",
+                        "passed": false,
+                        "expected": "",
+                        "actual": ""
+                    }
+                ],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "pending"
+            },
+            {
+                "id": "spec44",
+                "description": "step7:Determine refund button click.",
+                "fullName": "Determine refund & generate credit memo request. step7:Determine refund button click.",
+                "failedExpectations": [],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "pending"
+            },
+            {
+                "id": "spec45",
+                "description": "step8:Select all items on determine refund page.",
+                "fullName": "Determine refund & generate credit memo request. step8:Select all items on determine refund page.",
+                "failedExpectations": [],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "pending"
+            },
+            {
+                "id": "spec46",
+                "description": "step9:Release button click on determine refund page.",
+                "fullName": "Determine refund & generate credit memo request. step9:Release button click on determine refund page.",
+                "failedExpectations": [],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "pending"
+            },
+            {
+                "id": "spec47",
+                "description": "step10:Click already refunded button.",
+                "fullName": "Determine refund & generate credit memo request. step10:Click already refunded button.",
+                "failedExpectations": [],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "pending"
+            },
+            {
+                "id": "spec48",
+                "description": "step11:Get credit memo request number.",
+                "fullName": "Determine refund & generate credit memo request. step11:Get credit memo request number.",
+                "failedExpectations": [
+                    {
+                        "matcherName": "",
+                        "message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=79.0.3945.117)\n  (Driver info: chromedriver=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}),platform=Windows NT 10.0.17763 x86_64)",
+                        "stack": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=79.0.3945.117)\n  (Driver info: chromedriver=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}),platform=Windows NT 10.0.17763 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\nFrom: Task: WebDriver.takeScreenshot()\n    at Driver.schedule (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at Driver.takeScreenshot (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\webdriver.js:1085:17)\n    at run (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\protractor\\lib\\browser.ts:67:7)\n    at ProtractorBrowser.to.<computed> [as takeScreenshot] (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\protractor\\lib\\browser.ts:75:5)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\protractor-jasmine2-screenshot-reporter\\index.js:600:23\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:4905:15\n    at baseForOwn (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:2990:24)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:4874:18\n    at Function.forEach (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:9342:14)\n    at Jasmine2ScreenShotReporter.specDone (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\protractor-jasmine2-screenshot-reporter\\index.js:596:7)",
+                        "passed": false,
+                        "expected": "",
+                        "actual": ""
+                    }
+                ],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "pending"
+            },
+            {
+                "id": "spec49",
+                "description": "Step 12: Logout",
+                "fullName": "Determine refund & generate credit memo request. Step 12: Logout",
+                "failedExpectations": [],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "pending"
+            }
+        ]
+    },
+    "suite8": {
+        "id": "suite8",
+        "description": "Create billing document.",
+        "fullName": "Create billing document.",
+        "failedExpectations": [],
+        "deprecationWarnings": [],
+        "status": "finished",
+        "specs": [
+            {
+                "id": "spec50",
+                "description": "step 1: Navigate to billing document app.",
+                "fullName": "Create billing document. step 1: Navigate to billing document app.",
+                "failedExpectations": [
+                    {
+                        "matcherName": "",
+                        "message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=79.0.3945.117)\n  (Driver info: chromedriver=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}),platform=Windows NT 10.0.17763 x86_64)",
+                        "stack": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=79.0.3945.117)\n  (Driver info: chromedriver=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}),platform=Windows NT 10.0.17763 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\nFrom: Task: WebDriver.takeScreenshot()\n    at Driver.schedule (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at Driver.takeScreenshot (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\webdriver.js:1085:17)\n    at run (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\protractor\\lib\\browser.ts:67:7)\n    at ProtractorBrowser.to.<computed> [as takeScreenshot] (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\protractor\\lib\\browser.ts:75:5)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\protractor-jasmine2-screenshot-reporter\\index.js:600:23\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:4905:15\n    at baseForOwn (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:2990:24)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:4874:18\n    at Function.forEach (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:9342:14)\n    at Jasmine2ScreenShotReporter.specDone (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\protractor-jasmine2-screenshot-reporter\\index.js:596:7)",
+                        "passed": false,
+                        "expected": "",
+                        "actual": ""
+                    }
+                ],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "failed"
+            },
+            {
+                "id": "spec51",
+                "description": "step 2: Login to System",
+                "fullName": "Create billing document. step 2: Login to System",
+                "failedExpectations": [],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "pending"
+            },
+            {
+                "id": "spec52",
+                "description": "step3:Input & search.",
+                "fullName": "Create billing document. step3:Input & search.",
+                "failedExpectations": [],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "pending"
+            },
+            {
+                "id": "spec53",
+                "description": "step4:Select one item.",
+                "fullName": "Create billing document. step4:Select one item.",
+                "failedExpectations": [],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "pending"
+            },
+            {
+                "id": "spec54",
+                "description": "step5:Click [Create] button.",
+                "fullName": "Create billing document. step5:Click [Create] button.",
+                "failedExpectations": [],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "pending"
+            },
+            {
+                "id": "spec55",
+                "description": "step6:Click [OK] button.",
+                "fullName": "Create billing document. step6:Click [OK] button.",
+                "failedExpectations": [],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "pending"
+            },
+            {
+                "id": "spec56",
+                "description": "step7:Save billing document.",
+                "fullName": "Create billing document. step7:Save billing document.",
+                "failedExpectations": [
+                    {
+                        "matcherName": "",
+                        "message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=79.0.3945.117)\n  (Driver info: chromedriver=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}),platform=Windows NT 10.0.17763 x86_64)",
+                        "stack": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=79.0.3945.117)\n  (Driver info: chromedriver=78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877}),platform=Windows NT 10.0.17763 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\nFrom: Task: WebDriver.takeScreenshot()\n    at Driver.schedule (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at Driver.takeScreenshot (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\selenium-webdriver\\lib\\webdriver.js:1085:17)\n    at run (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\protractor\\lib\\browser.ts:67:7)\n    at ProtractorBrowser.to.<computed> [as takeScreenshot] (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\protractor\\lib\\browser.ts:75:5)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\protractor-jasmine2-screenshot-reporter\\index.js:600:23\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:4905:15\n    at baseForOwn (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:2990:24)\n    at C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:4874:18\n    at Function.forEach (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\lodash\\lodash.js:9342:14)\n    at Jasmine2ScreenShotReporter.specDone (C:\\Users\\i327489\\Desktop\\S4SALSE\\Vyper\\WORKSP~1\\servers\\VYPERF~2\\node_modules\\protractor-jasmine2-screenshot-reporter\\index.js:596:7)",
+                        "passed": false,
+                        "expected": "",
+                        "actual": ""
+                    }
+                ],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "pending"
+            },
+            {
+                "id": "spec57",
+                "description": "step8:Post billing document.",
+                "fullName": "Create billing document. step8:Post billing document.",
+                "failedExpectations": [],
+                "passedExpectations": [],
+                "deprecationWarnings": [],
+                "pendingReason": "",
+                "status": "pending"
+            }
+        ]
+    }
+}
